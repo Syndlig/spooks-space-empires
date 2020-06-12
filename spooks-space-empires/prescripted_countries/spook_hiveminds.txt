@@ -1,4 +1,4 @@
-"«a blossoming tree in void»"
+"<a blossoming tree in void>"
 ={
 	key="«a blossoming tree in void»"
 	ship_prefix=""
@@ -8,7 +8,7 @@
 		name="«blossom»"
 		plural="«blossoms»"
 		adjective="«blossom»"
-		species_bio="« a tree blossoms in void »          « it is life and life is it »          « it nourishes the world and the world nourishes it »          « the void blossoms from a tree »"
+		species_bio="«a tree blossoms in void»\n\b«it is life and life is it»\n«it nourishes the world and the world nourishes it»\n\n«the void blossoms from a tree»"
 		name_list="PLANT"
 		trait="trait_hive_mind"
 		trait="trait_communal"
@@ -62,6 +62,73 @@
 		"civic_hive_ascetic"
 	}
 	origin="origin_tree_of_life"
+}
+"Thoughts of Dancing Motes"
+={
+	key="Thoughts of Dancing Motes"
+	ship_prefix=""
+	species={
+		class="LITHOID"
+		portrait="lith2"
+		name="Mote"
+		plural="Motes"
+		adjective="Mote"
+		species_bio="We are born in void. We careen through space, unborn and aware. Our universe is hot, safe. We collide. A form. We do not understand. It is unpleasant, we cannot be in the heat. We converge. All minds become one mind. I will be this new form. This new me. We die so there can be 'I'."
+		name_list="HIVE2"
+		trait="trait_lithoid"
+		trait="trait_hive_mind"
+		trait="trait_intelligent"
+		trait="trait_natural_engineers"
+		trait="trait_quick_learners"
+		trait="trait_fleeting_lithoid"
+		trait="trait_sedentary"
+	}
+	name="Thoughts of Dancing Motes"
+	adjective="Mote"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	planet_name="M'valku"
+	planet_class="pc_sandsea"
+	system_name="M'farluk"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_nature11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_ring.dds"
+		}
+		colors={
+			"blue"
+			"gray_0"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="I"
+		portrait="lith2"
+		texture=2
+		hair=0
+		clothes=0
+		ruler_title="Motethought"
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="lithoid_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_hive_natural_neural_network"
+		"civic_hive_empath"
+	}
+	origin="origin_lithoid"
 }
 "C¤NSume thE FLþSh"
 ={
@@ -195,71 +262,4 @@
 		"civic_hive_ascetic"
 	}
 	origin="origin_life_seeded"
-}
-"Thoughts of Dancing Motes"
-={
-	key="Thoughts of Dancing Motes"
-	ship_prefix=""
-	species={
-		class="LITHOID"
-		portrait="lith2"
-		name="Mote"
-		plural="Motes"
-		adjective="Mote"
-		species_bio="We are born in void. We careen through space, unborn and aware. Our universe is hot, safe. We collide. A form. We do not understand. It is unpleasant, we cannot be in the heat. We converge. All minds become one mind. I will be this new form. This new me. We die so there can be 'I'."
-		name_list="HIVE2"
-		trait="trait_lithoid"
-		trait="trait_hive_mind"
-		trait="trait_intelligent"
-		trait="trait_natural_engineers"
-		trait="trait_quick_learners"
-		trait="trait_fleeting_lithoid"
-		trait="trait_sedentary"
-	}
-	name="Thoughts of Dancing Motes"
-	adjective="Mote"
-	authority="auth_hive_mind"
-	government="gov_hive_mind"
-	planet_name="M'valku"
-	planet_class="pc_sandsea"
-	system_name="M'farluk"
-	initializer=""
-	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_nature11.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_ring.dds"
-		}
-		colors={
-			"blue"
-			"gray_0"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="I"
-		portrait="lith2"
-		texture=2
-		hair=0
-		clothes=0
-		ruler_title="Motethought"
-		leader_class="ruler"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="lithoid_room"
-	spawn_enabled=always
-	ethic="ethic_gestalt_consciousness"
-	civics={
-		"civic_hive_natural_neural_network"
-		"civic_hive_empath"
-	}
-	origin="origin_lithoid"
 }

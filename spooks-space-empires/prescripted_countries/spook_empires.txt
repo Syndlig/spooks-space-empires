@@ -1,70 +1,65 @@
-"...RUMBLE..."
+".Z'f'f'ra.j'nib Slavers"
 ={
-	key="...RUMBLE..."
+	key=".Z'f'f'ra.j'nib Slavers"
 	ship_prefix=""
 	species={
-		class="LITHOID"
-		portrait="lith7"
-		name="Croll"
-		plural="Croll"
-		adjective="Croll"
-		name_list="LITHOID2"
-		trait="trait_lithoid"
-		trait="trait_industrious"
-		trait="trait_strong"
-		trait="trait_repugnant"
-		trait="trait_lithoid_scintillating"
-		trait="trait_quarrelsome"
+		class="ART"
+		portrait="art5"
+		name=".Z'f'f'ra.j'nib"
+		plural=".Z'f'f'ra.j'nib"
+		adjective=".Z'f'f'ra.j'nib"
+		name_list="just-name-lists_arthropoid4"
+		trait="trait_natural_engineers"
+		trait="trait_nomadic"
 	}
-	name="...RUMBLE..."
-	adjective="Metal"
-	authority="auth_democratic"
-	government="gov_assembly_of_clans"
-	planet_name="Ferban"
-	planet_class="pc_ammonia"
-	system_name="Jirv"
+	name=".Z'f'f'ra.j'nib Slavers"
+	adjective="Slaver"
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	planet_name="Rutharia"
+	planet_class="pc_alpine"
+	system_name="Ruthor"
 	initializer=""
-	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_9.dds"
+			category="elitedangerous-6364"
+			file="game-ed-pranav-antal.dds"
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="fabric_rising.dds"
 		}
 		colors={
-			"hsv_64-100-50"
-			"hsv_0-100-80"
+			"hsv_80-84-80"
+			"black"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Dend Cope"
-		portrait="lith7"
-		texture=2
+		name="Rak Treg-Sk'Mod"
+		portrait="art5"
+		texture=0
 		hair=0
 		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="lithoid_room"
+	room="personality_federation_builders_room"
 	spawn_enabled=always
-	ethic="ethic_xenophobe"
+	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	ethic="ethic_spiritualist"
 	civics={
 		"civic_warrior_culture"
-		"civic_mining_guilds"
+		"civic_slaver_guilds"
 	}
-	origin="origin_mechanists"
+	origin="origin_lost_colony"
 }
-
 "9 Wings of Victory"
 ={
 	key="9 Wings of Victory"
@@ -84,8 +79,8 @@
 	}
 	name="9 Wings of Victory"
 	adjective="Aaccaat"
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
+	authority="auth_oligarchic"
+	government="gov_military_junta"
 	planet_name="Penthul"
 	planet_class="pc_subarctic"
 	system_name="Penkar"
@@ -124,25 +119,22 @@
 	ethic="ethic_authoritarian"
 	ethic="ethic_fanatic_militarist"
 	civics={
-		"civic_warrior_culture"
 		"civic_distinguished_admiralty"
+		"civic_nationalistic_zeal"
 	}
 	origin="origin_default"
 }
 "Ascendant Terran Regime"
 ={
 	key="Ascendant Terran Regime"
-	ship_prefix="ATRS"
+	ship_prefix="RSV"
 	species={
 		class="HUM"
 		portrait="human"
 		name="Terran"
 		plural="Terrans"
 		adjective="Terran"
-		species_bio="Humans claiming to be the true inheritors of Sol, they consider the existence of xenos (including other human empires) casus belli for extermination."
-		name_list="just-name-lists_human5"
-		trait="trait_natural_engineers"
-		trait="trait_quick_learners"
+		name_list="just-name-lists_human8"
 	}
 	name="Ascendant Terran Regime"
 	adjective="Terran"
@@ -150,10 +142,10 @@
 	government="gov_purity_order"
 	planet_name="Terra"
 	planet_class="pc_continental"
-	system_name="Solus"
-	initializer="custom_starting_init_02"
-	graphical_culture="css_fedbuild_04"
-	city_graphical_culture="css_fedbuild_01"
+	system_name="Nusolus"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
 			category="human"
@@ -161,37 +153,100 @@
 		}
 		background={
 			category="backgrounds"
-			file="inverted_v.dds"
+			file="fabric_horizon.dds"
 		}
 		colors={
 			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Laurinda Qaderi"
+		portrait="human_female_05"
+		texture=0
+		hair=5
+		clothes=6
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_galactic_doorstep"
+}
+"Alabaster Legion"
+={
+	key="Alabaster Legion"
+	ship_prefix="LV"
+	species={
+		class="ART"
+		portrait="art13"
+		name="Psumite"
+		plural="Psumites"
+		adjective="Psumitian"
+		name_list="ART2"
+		trait="trait_gpm_forgotten_species"
+		trait="trait_quarrelsome"
+		trait="trait_unruly"
+		trait="trait_extremely_adaptive"
+		trait="trait_thrifty"
+		trait="trait_wasteful"
+	}
+	name="Alabaster Legion"
+	adjective="Legion"
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	planet_name=" Mirus"
+	planet_class="pc_desert"
+	system_name="Xeltor"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_machine6.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_ring.dds"
+		}
+		colors={
+			"gray_20"
 			"gray_0"
 			"null"
 			"null"
 		}
 	}
 	ruler={
-		gender=male
-		name="Vitelio Shmagin"
-		portrait="human_male_01"
-		texture=0
-		hair=72
-		clothes=2
-		ruler_title="High Purifier"
-		ruler_title_female="High Purifier"
+		gender=female
+		name="Kul-Sarw"
+		portrait="art13"
+		texture=2
+		hair=0
+		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_peaceful_traders_room"
+	room="personality_fanatic_purifier_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_xenophobe"
-	ethic="ethic_militarist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
 	civics={
-		"civic_fanatic_purifiers"
-		"civic_police_state"
+		"civic_barbaric_despoilers"
+		"civic_warrior_culture"
 	}
-	origin="origin_galactic_doorstep"
+	origin="origin_gpm_precursor_world"
 }
 "Bananalorian Connection"
 ={
@@ -288,7 +343,7 @@
 	name="Celo'Wan Combine"
 	adjective="Combine"
 	authority="auth_democratic"
-	government="gov_military_commissariat"
+	government="gov_moral_democracy"
 	planet_name="Evanda Zuun"
 	planet_class="pc_mangrove"
 	system_name="Evon"
@@ -324,12 +379,11 @@
 	ignore_portrait_duplication=no
 	room="personality_erudite_explorers_room"
 	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_militarist"
+	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_materialist"
 	civics={
-		"civic_shadow_council"
-		"civic_police_state"
+		"civic_efficient_bureaucracy"
+		"civic_parliamentary_system"
 	}
 	origin="origin_syncretic_evolution"
 }
@@ -353,7 +407,7 @@
 	name="Disciples of the Threefold Paths"
 	adjective="Disciple"
 	authority="auth_imperial"
-	government="gov_irenic_monarchy"
+	government="gov_celestial_empire"
 	planet_name="Jakaro"
 	planet_class="pc_glacial"
 	system_name="Jik"
@@ -397,8 +451,8 @@
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
 	civics={
+		"civic_inwards_perfection"
 		"civic_agrarian_idyll"
-		"civic_aristocratic_elite"
 	}
 	origin="origin_scion"
 }
@@ -422,8 +476,8 @@
 	}
 	name="Divine Orchard"
 	adjective="Orchard"
-	authority="auth_imperial"
-	government="gov_enlightened_monarchy"
+	authority="auth_oligarchic"
+	government="gov_holy_tribunal"
 	planet_name="Pelisi"
 	planet_class="pc_retinal"
 	system_name="Lilaro"
@@ -465,10 +519,71 @@
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
 	civics={
-		"civic_philosopher_king"
-		"civic_feudal_realm"
+		"civic_exalted_priesthood"
+		"civic_warrior_culture"
 	}
 	origin="origin_hegemon"
+}
+"Eposchic Ascendant Regime"
+={
+	key="Eposchic Ascendant Regime"
+	ship_prefix="RSS"
+	species={
+		class="HUM"
+		portrait="humanoid_hp_06"
+		name="Eposch"
+		plural="Eposchi"
+		adjective="Eposchic"
+		name_list="HUM1"
+		trait="trait_intelligent"
+	}
+	name="Eposchic Ascendant Regime"
+	adjective="Eposchic"
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	planet_name="Vrinn"
+	planet_class="pc_boreal"
+	system_name="Vrinnus"
+	initializer=""
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="battlestar-6364"
+			file="bsg-colony-tauron.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"hsv_32-52-80"
+			"blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Tetrana"
+		portrait="humanoid_hp_06_female"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_hive_mind_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_environmentalist"
+		"civic_exalted_priesthood"
+	}
+	origin="origin_shoulders_of_giants"
 }
 "Erretani Diaspora"
 ={
@@ -492,7 +607,7 @@
 	name="Erretani Diaspora"
 	adjective="Erretani"
 	authority="auth_oligarchic"
-	government="gov_irenic_bureaucracy"
+	government="gov_citizen_stratocracy"
 	planet_name="Emariss"
 	planet_class="pc_continental"
 	system_name="Marass"
@@ -528,11 +643,11 @@
 	ignore_portrait_duplication=no
 	room="personality_decadent_hierarchy_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_pacifist"
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
 	ethic="ethic_materialist"
 	civics={
-		"civic_environmentalist"
+		"civic_citizen_service"
 		"civic_merchant_guilds"
 	}
 	origin="origin_gpm_fallen_empire_colony"
@@ -556,8 +671,8 @@
 	}
 	name="Featherleaf Consortium"
 	adjective="Consortium"
-	authority="auth_democratic"
-	government="gov_moral_democracy"
+	authority="auth_dictatorial"
+	government="gov_irenic_dictatorship"
 	planet_name="Sabak"
 	planet_class="pc_tidallylocked"
 	system_name="Sairus"
@@ -593,101 +708,100 @@
 	ignore_portrait_duplication=no
 	room="personality_hegemonic_imperialists_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_pacifist"
 	ethic="ethic_materialist"
 	civics={
-		"civic_diplomatic_corps"
 		"civic_byzantine_bureaucracy"
+		"civic_efficient_bureaucracy"
 	}
 	origin="origin_default"
 }
-"Follori Collections, LLC"
+"Fallow Grand Duchies"
 ={
-	key="Follori Collections, LLC"
-	ship_prefix="CV"
+	key="Fallow Grand Duchies"
+	ship_prefix="ISS"
 	species={
-		class="MAM"
-		portrait="mam12"
-		name="Follor"
-		plural="Follori"
-		adjective="Folloran"
-		name_list="just-name-lists_mammalian3"
-		trait="trait_decadent"
-		trait="trait_wasteful"
-		trait="trait_charismatic"
-		trait="trait_conformists"
+		class="PLANT"
+		portrait="pla6"
+		name="Fallow"
+		plural="Fallow"
+		adjective="Fallow"
+		name_list="PLANT3"
+		trait="trait_gpm_mega_adaptive"
+		trait="trait_talented"
+		trait="trait_quick_learners"
 	}
-	name="Follori Collections, LLC"
-	adjective="Follori"
-	authority="auth_corporate"
-	government="gov_megacorporation"
-	planet_name="Fevaria"
-	planet_class="pc_outback"
-	system_name="Fevnor"
+	name="Fallow Grand Duchies"
+	adjective="Fallow"
+	authority="auth_oligarchic"
+	government="gov_irenic_bureaucracy"
+	planet_name="Panaxala Prima"
+	planet_class="pc_ash"
+	system_name="Panaxa"
 	initializer=""
-	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_machine6.dds"
+			category="spherical"
+			file="flag_spherical_15.dds"
 		}
 		background={
 			category="backgrounds"
 			file="fabric_ring.dds"
 		}
 		colors={
-			"gray_30"
-			"black"
+			"hsv_0-20-50"
+			"dark_brown"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Arn-Mudada Aburui"
-		portrait="mam12"
-		texture=5
+		name="Basil Lite"
+		portrait="pla6"
+		texture=0
 		hair=0
-		clothes=2
+		clothes=4
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_democratic_crusaders_room"
+	room="personality_fanatic_purifier_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_pacifist"
 	civics={
-		"civic_indentured_assets"
-		"civic_private_military_companies"
+		"civic_idealistic_foundation"
+		"civic_functional_architecture"
 	}
-	origin="origin_shoulders_of_giants"
+	origin="origin_gpm_death_world"
 }
 "Gorg House"
 ={
 	key="Gorg House"
-	ship_prefix="GPV"
+	ship_prefix=""
 	species={
 		class="HUM"
 		portrait="humanoid_hp_13"
 		name="Gorg"
-		plural="Gorgs"
-		adjective="Gorgan"
-		species_bio="When you visit Gorg House, you come for politics, pleasure, or punishment. Some come for all three."
-		name_list="just-name-lists_humanoid10"
+		plural="Gorg"
+		adjective="Gorg"
+		name_list="just-name-lists_humanoid6"
+		trait="trait_charismatic"
+		trait="trait_intelligent"
+		trait="trait_nonadaptive"
 	}
 	name="Gorg House"
 	adjective="Gorg"
-	authority="auth_democratic"
-	government="gov_citizen_republic"
-	planet_name="Vrinn"
+	authority="auth_dictatorial"
+	government="gov_elective_monarchy"
+	planet_name="Rihi"
 	planet_class="pc_superhabitable"
-	system_name="Vrinnus"
+	system_name="Niri"
 	initializer=""
-	graphical_culture="css_fedbuild_02"
+	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
@@ -707,23 +821,22 @@
 	}
 	ruler={
 		gender=female
-		name="Engenn Nametaker"
+		name="Frarninag Fivnef"
 		portrait="humanoid_hp_13_female"
-		texture=1
+		texture=0
 		hair=0
-		clothes=6
+		clothes=4
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_evangelizing_zealots_room"
+	room="personality_federation_builders_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
-	ethic="ethic_militarist"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
 	civics={
-		"civic_police_state"
-		"civic_citizen_service"
+		"civic_philosopher_king"
 	}
 	origin="origin_common_ground"
 }
@@ -744,7 +857,7 @@
 	name="Halarrn Free States"
 	adjective="Free State"
 	authority="auth_democratic"
-	government="gov_direct_democracy"
+	government="gov_citizen_republic"
 	planet_name="Rigga"
 	planet_class="pc_ocean"
 	system_name="Ha-Va'Ri"
@@ -781,40 +894,101 @@
 	room="personality_migrating_flock_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
-	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
 	ethic="ethic_materialist"
 	civics={
-		"civic_beacon_of_liberty"
-		"civic_free_haven"
+		"civic_citizen_service"
+		"civic_parliamentary_system"
 	}
 	origin="origin_mechanists"
+}
+"Humboldt Negotiators"
+={
+	key="Humboldt Negotiators"
+	ship_prefix="NV"
+	species={
+		class="ART"
+		portrait="art20"
+		name="Humboldt"
+		plural="Humboldts"
+		adjective="Humboldt"
+		name_list="ART3"
+		trait="trait_gpm_forgotten_species"
+		trait="trait_extremely_adaptive"
+		trait="trait_solitary"
+		trait="trait_wasteful"
+	}
+	name="Humboldt Negotiators"
+	adjective="Humboldt"
+	authority="auth_imperial"
+	government="gov_irenic_monarchy"
+	planet_name="Xaplo"
+	planet_class="pc_mesa"
+	system_name="Xaplonius"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_machine5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x90cross.dds"
+		}
+		colors={
+			"dark_green"
+			"gray_100"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Xan'dolf Klobbaxanaca"
+		portrait="art20"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_honorbound_warriors_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_aristocratic_elite"
+	}
+	origin="origin_gpm_precursor_world"
 }
 "Indolent Expanse"
 ={
 	key="Indolent Expanse"
-	ship_prefix=""
+	ship_prefix="EPS"
 	species={
 		class="FUN"
 		portrait="fun14"
 		name="Brescen"
-		plural="Brescens"
-		adjective="Brescen"
-		name_list="FUN1"
+		plural="Bresceni"
+		adjective="Brescenian"
+		name_list="FUN4"
 		trait="trait_decadent"
 		trait="trait_wasteful"
-		trait="trait_deviants"
 		trait="trait_venerable"
-		trait="trait_natural_engineers"
 	}
 	name="Indolent Expanse"
-	adjective="Expanse"
+	adjective="Brescen"
 	authority="auth_imperial"
-	government="gov_feudal_empire"
-	planet_name="Obeva Monoy"
+	government="gov_divine_empire"
+	planet_name="Pogovon"
 	planet_class="pc_mushroom"
-	system_name="Oygan"
+	system_name="Cavobb"
 	initializer=""
-	graphical_culture="wsg_01"
+	graphical_culture="fungoid_01"
 	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
@@ -834,181 +1008,178 @@
 	}
 	ruler={
 		gender=female
-		name="Nuhloigh"
+		name="Klagg"
 		portrait="fun14"
-		texture=4
+		texture=0
 		hair=0
 		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_harmonious_hierarchy_room"
+	room="personality_evangelizing_zealots_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophile"
-	ethic="ethic_militarist"
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_spiritualist"
 	civics={
-		"civic_feudal_realm"
-		"civic_slaver_guilds"
+		"civic_imperial_cult"
+		"civic_police_state"
 	}
 	origin="origin_galactic_doorstep"
 }
-"Jitaun Trade Consortium"
+"Jorgeni Union"
 ={
-	key="Jitaun Trade Consortium"
-	ship_prefix="TCV"
+	key="Jorgeni Union"
+	ship_prefix="JUS"
 	species={
-		class="ART"
-		portrait="art8"
-		name="Jitaun"
-		plural="Jitauns"
-		adjective="Jitaunan"
-		name_list="ART4"
-		trait="trait_thrifty"
+		class="REP"
+		portrait="rep5"
+		name="Jorgen"
+		plural="Jorgeni"
+		adjective="Jorgeni"
+		name_list="just-name-lists_reptilian2"
+		trait="trait_void_dweller_1"
+		trait="trait_talented"
+		trait="trait_very_strong"
+		trait="trait_fleeting"
+		trait="trait_slow_learners"
 	}
-	name="Jitaun Trade Consortium"
-	adjective="Consortium"
-	authority="auth_oligarchic"
-	government="gov_irenic_bureaucracy"
-	planet_name="Hantakka"
-	planet_class="pc_wetswamp"
-	system_name="Takaros"
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="css_fedbuild_01"
+	name="Jorgeni Union"
+	adjective="Jorgeni"
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	planet_name="Bryllthana"
+	planet_class="pc_prairie"
+	system_name="Brethlu"
+	initializer="void_dweller_system"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="corporate"
-			file="corporate_06.dds"
+			category="blocky"
+			file="flag_blocky_19.dds"
 		}
 		background={
 			category="backgrounds"
-			file="horizontal_stripe.dds"
+			file="double_triangles.dds"
 		}
 		colors={
-			"hsv_72-100-50"
-			"hsv_80-100-80"
+			"yellow"
+			"gray_10"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Il'T tu'Vak"
-		portrait="art8"
-		texture=4
+		name="Gerlou breBannou Gibbanlor"
+		portrait="rep5"
+		texture=0
 		hair=0
 		clothes=4
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_spiritual_seekers_room"
+	room="personality_metalheads_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_merchant_guilds"
-		"civic_meritocracy"
+		"civic_beacon_of_liberty"
+		"civic_idealistic_foundation"
 	}
-	origin="origin_common_ground"
+	origin="origin_void_dwellers"
 }
-"Kark"
+"Jaxxian Rockeaters"
 ={
-	key="Kark"
+	key="Jaxxian Rockeaters"
 	ship_prefix=""
 	species={
-		class="ART"
-		portrait="art19"
-		name="Kark"
-		plural="Karks"
-		adjective="Kark"
-		species_bio="Kark hate all. But Kark love machine! Kark kill all and make all machine!"
-		name_list="just-name-lists_arthropoid2"
-		trait="trait_industrious"
-		trait="trait_strong"
-		trait="trait_wasteful"
+		class="LITHOID"
+		portrait="lith1"
+		name="Jaxx"
+		plural="Jaxxi"
+		adjective="Jaxxian"
+		name_list="LITHOID4"
+		trait="trait_lithoid"
+		trait="trait_nomadic"
+		trait="trait_enduring"
+		trait="trait_lithoid_volatile_excretions"
 		trait="trait_repugnant"
-		trait="trait_rapid_breeders"
 	}
-	name="Kark"
-	adjective="Kark"
-	authority="auth_democratic"
-	government="gov_assembly_of_clans"
-	planet_name="Kark"
-	planet_class="pc_desertislands"
-	system_name="Kark"
+	name="Jaxxian Rockeaters"
+	adjective="Jaxxian"
+	authority="auth_imperial"
+	government="gov_despotic_empire"
+	planet_name="Bodrillia"
+	planet_class="pc_frozen_desert"
+	system_name="Bod"
 	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
 	empire_flag={
 		icon={
-			category="pointy"
-			file="flag_pointy_14.dds"
+			category="just-more-flags"
+			file="flag_authoritarian5.dds"
 		}
 		background={
 			category="backgrounds"
-			file="diagonal.dds"
+			file="fabric_half_black_circle.dds"
 		}
 		colors={
-			"hsv_0-100-80"
-			"hsv_64-100-50"
+			"hsv_8-100-50"
+			"dark_brown"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Bo-Ka"
-		portrait="art19"
-		texture=3
+		name="Methenn shar Crambe"
+		portrait="lith1"
+		texture=0
 		hair=0
 		clothes=0
-		ruler_title="Metalhead"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_democratic_crusaders_room"
+	room="personality_decadent_hierarchy_room"
 	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
 	civics={
-		"civic_warrior_culture"
+		"civic_functional_architecture"
 		"civic_mining_guilds"
 	}
-	origin="origin_mechanists"
+	origin="origin_lithoid"
 }
 "Kingdom of Ganvius"
 ={
 	key="Kingdom of Ganvius"
-	ship_prefix=""
+	ship_prefix="KPV"
 	species={
-		class="PLANT"
-		portrait="pla5"
+		class="FUN"
+		portrait="fun15"
 		name="Ganvia"
-		plural="Ganvii"
+		plural="Ganvia"
 		adjective="Ganvian"
-		name_list="PLANT"
-		trait="trait_gpm_forgotten_species"
-		trait="trait_rapid_breeders"
-		trait="trait_intelligent"
-		trait="trait_nonadaptive"
+		name_list="PLANT4"
+		trait="trait_charismatic"
+		trait="trait_strong"
+		trait="trait_slow_learners"
 	}
 	name="Kingdom of Ganvius"
 	adjective="Ganvian"
-	authority="auth_oligarchic"
-	government="gov_theocratic_oligarchy"
-	advisor_voice_type="l_militarist"
-	planet_name="Mirov"
+	authority="auth_imperial"
+	government="gov_despotic_hegemony"
+	planet_name="Djunnbar"
 	planet_class="pc_karst"
-	system_name="Gan"
+	system_name="Djunnir"
 	initializer=""
-	graphical_culture="wsg_01"
-	city_graphical_culture="plantoid_01"
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
@@ -1027,116 +1198,51 @@
 	}
 	ruler={
 		gender=female
-		name="Trunk of Bo"
-		portrait="pla5"
-		texture=3
-		hair=0
-		clothes=0
-		leader_class="ruler"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="personality_democratic_crusaders_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	civics={
-		"civic_merchant_guilds"
-		"civic_mining_guilds"
-	}
-	origin="origin_gpm_precursor_world"
-}
-
-"Kollux Bureau"
-={
-	key="Kollux Bureau"
-	ship_prefix=""
-	species={
-		class="ART"
-		portrait="art14"
-		name="Kollux"
-		plural="Kolluxi"
-		adjective="Kollux"
-		species_bio="They specialized into the espionage and crime niche. Ask too many questions and you won't be asking any more."
-		name_list="just-name-lists_arthropoid4"
-	}
-	name="Kollux Bureau"
-	adjective="Bureau"
-	authority="auth_corporate"
-	government="gov_criminal_syndicate"
-	planet_name="Trako"
-	planet_class="pc_cascadian"
-	system_name="Poci'Ganklak"
-	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
-	empire_flag={
-		icon={
-			category="elitedangerous-6364"
-			file="game-ed-alliance-no-ring.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_stripe_negative_45_rotated.dds"
-		}
-		colors={
-			"hsv_16-100-80"
-			"dark_grey"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Mux J'Rad"
-		portrait="art14"
+		name="Callivey Vivea"
+		portrait="fun15"
 		texture=0
 		hair=0
 		clothes=0
-		ruler_title="Don"
-		ruler_title_female="Don"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_peaceful_traders_room"
+	room="personality_decadent_hierarchy_room"
 	spawn_enabled=always
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
 	civics={
-		"civic_criminal_heritage"
-		"civic_franchising"
+		"civic_efficient_bureaucracy"
+		"civic_diplomatic_corps"
 	}
-	origin="origin_default"
+	origin="origin_hegemon"
 }
 "Kolori Chain"
 ={
 	key="Kolori Chain"
-	ship_prefix="Chainship"
+	ship_prefix="Linkvessel"
 	species={
 		class="LITHOID"
 		portrait="lith11"
 		name="Kolori"
 		plural="Kolori"
 		adjective="Kolorian"
-		species_bio="A race of venerable lithoids doomed to an eternity in the void, due to their inability to survive in gravity much stronger than 0G."
 		name_list="LITHOID3"
 		trait="trait_lithoid"
 		trait="trait_void_dweller_1"
-		trait="trait_venerable"
-		trait="trait_solitary"
-		trait="trait_sedentary"
+		trait="trait_nomadic"
+		trait="trait_natural_engineers"
 	}
 	name="Kolori Chain"
-	adjective="Kolori"
+	adjective="Kolorian"
 	authority="auth_democratic"
 	government="gov_communal_parity"
-	planet_name="Kodra Habitat"
-	planet_class="pc_biolumen"
-	system_name="Kodranill"
+	planet_name="Ti-Za"
+	planet_class="pc_methane"
+	system_name="Ti"
 	initializer="void_dweller_system"
-	graphical_culture="css_fedbuild_04"
+	graphical_culture="mammalian_01"
 	city_graphical_culture="lithoid_01"
 	empire_flag={
 		icon={
@@ -1156,169 +1262,148 @@
 	}
 	ruler={
 		gender=female
-		name="Fari Ryl"
+		name="Buun'lonn J'naawp"
 		portrait="lith11"
-		texture=2
+		texture=3
 		hair=0
 		clothes=0
-		ruler_title="Speaker"
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="ego_nice_room"
+	room="lithoid_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
-	ethic="ethic_materialist"
+	ethic="ethic_spiritualist"
 	civics={
 		"civic_shared_burden"
 		"civic_beacon_of_liberty"
 	}
 	origin="origin_void_dwellers"
 }
-"Lerg Acquisitions"
+"Lemtharian Authority"
 ={
-	key="Lerg Acquisitions"
-	ship_prefix="LA"
+	key="Lemtharian Authority"
+	ship_prefix="Bud"
 	species={
-		class="FUN"
-		portrait="fun11"
-		name="Lerg"
-		plural="Lerg"
-		adjective="Lerg"
-		species_bio="A lerg would sell its own spore matron into slavery for a quick buck. Never, ever trust a lerg."
-		name_list="FUN1"
-		trait="trait_intelligent"
-		trait="trait_thrifty"
-		trait="trait_nonadaptive"
-		trait="trait_unruly"
-		trait="trait_charismatic"
+		class="PLANT"
+		portrait="pla1"
+		name="Lemthari"
+		plural="Lemthari"
+		adjective="Lemtharian"
+		name_list="PLANT3"
+		trait="trait_adaptive"
 	}
-	secondary_species={
-		class="REP"
-		portrait="rep11"
-		name="Kirillian"
-		plural="Kirillians"
-		adjective="Kirillian"
-		name_list="REP2"
-		trait="trait_syncretic_proles"
-		trait="trait_industrious"
-		trait="trait_agrarian"
-		trait="trait_fleeting"
-		trait="trait_repugnant"
-	}
-	name="Lerg Acquisitions"
-	adjective="Lerg"
-	authority="auth_corporate"
-	government="gov_megacorporation"
-	planet_name="Great Vatni"
-	planet_class="pc_hajungle"
-	system_name="Kramak"
+	name="Lemtharian Authority"
+	adjective="Lemtharian"
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	planet_name="Lilaro"
+	planet_class="pc_forest"
+	system_name="Lav"
 	initializer=""
-	graphical_culture="fungoid_01"
-	city_graphical_culture="fungoid_01"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
 	empire_flag={
 		icon={
 			category="just-more-flags"
-			file="flag_miranda2.dds"
+			file="flag_materialist7.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_negative_rotated.dds"
+			file="fabric_x60x3.dds"
 		}
 		colors={
-			"hsv_0-36-80"
-			"hsv_8-20-80"
+			"blue"
+			"gray_0"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Volgethaana"
-		portrait="fun11"
-		texture=4
+		name="Basil Hawthorn"
+		portrait="pla1"
+		texture=0
 		hair=0
 		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_fanatic_purifier_room"
+	room="personality_spiritual_seekers_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_materialist"
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_militarist"
 	civics={
-		"civic_indentured_assets"
-		"civic_ruthless_competition"
+		"civic_warrior_culture"
+		"civic_nationalistic_zeal"
 	}
-	origin="origin_syncretic_evolution"
+	origin="origin_shoulders_of_giants"
 }
-"Nanosoft"
+"Martial Meritocracy of Tseinck"
 ={
-	key="Nanosoft"
-	ship_prefix="NSS"
+	key="Martial Meritocracy of Tseinck"
+	ship_prefix=""
 	species={
 		class="REP"
-		portrait="rep12"
-		name="Diri"
-		plural="Dirini"
-		adjective="Dirian"
-		species_bio="Shop with Nanosoft today and receive a free* lifetime** warranty! You'll be satisfied or your money back***!"
-		name_list="REP3"
-		trait="trait_charismatic"
-		trait="trait_quarrelsome"
-		trait="trait_enduring"
-		trait="trait_wasteful"
-		trait="trait_natural_sociologists"
+		portrait="rep7"
+		name="Fradir"
+		plural="Fradiri"
+		adjective="Fradiran"
+		name_list="just-name-lists_reptilian2"
+		trait="trait_gpm_mega_adaptive"
+		trait="trait_natural_engineers"
+		trait="trait_industrious"
+		trait="trait_slow_breeders"
+		trait="trait_quick_learners"
 	}
-	name="Nanosoft"
-	adjective="Nanosoft"
-	authority="auth_corporate"
-	government="gov_megacorporation"
-	planet_name="Tebador"
-	planet_class="pc_continental"
-	system_name="Tabat"
-	initializer="shattered_ring_start"
+	name="Martial Meritocracy of Tseinck"
+	adjective="Tseinck"
+	authority="auth_democratic"
+	government="gov_military_commissariat"
+	planet_name="Baanthur"
+	planet_class="pc_med"
+	system_name="Tseinck"
+	initializer=""
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
-			category="ornate"
-			file="flag_ornate_3.dds"
+			category="miscgame-6364"
+			file="game-dota2.dds"
 		}
 		background={
 			category="backgrounds"
-			file="circle.dds"
+			file="fabric_stripe.dds"
 		}
 		colors={
-			"gray_0"
-			"hsv_48-68-80"
+			"red"
+			"hsv_0-20-80"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Samux"
-		portrait="rep12"
-		texture=2
+		name="Drayou Drogbondra"
+		portrait="rep7"
+		texture=0
 		hair=0
-		clothes=1
+		clothes=4
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_federation_builders_room"
+	room="default_room"
 	spawn_enabled=always
 	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_militarist"
 	civics={
-		"civic_public_relations_specialists"
-		"civic_private_prospectors"
+		"civic_shadow_council"
+		"civic_police_state"
 	}
-	origin="origin_shattered_ring"
+	origin="origin_gpm_death_world"
 }
 "Nividian Braves"
 ={
@@ -1341,7 +1426,7 @@
 	name="Nividian Braves"
 	adjective="Nividian"
 	authority="auth_oligarchic"
-	government="gov_citizen_stratocracy"
+	government="gov_bandit_commune"
 	planet_name="Udkall"
 	planet_class="pc_irradiated"
 	system_name="Jua Waaktra"
@@ -1383,37 +1468,99 @@
 	ethic="ethic_materialist"
 	civics={
 		"civic_warrior_culture"
-		"civic_citizen_service"
+		"civic_barbaric_despoilers"
 	}
 	origin="origin_galactic_doorstep"
+}
+"Nomenus Compact"
+={
+	key="Nomenus Compact"
+	ship_prefix=""
+	species={
+		class="LITHOID"
+		portrait="lith6"
+		name="Nomenus"
+		plural="Nomenus"
+		adjective="Nomenan"
+		name_list="LITHOID1"
+		trait="trait_lithoid"
+		trait="trait_lithoid_volatile_excretions"
+	}
+	name="Nomenus Compact"
+	adjective="Nomenan"
+	authority="auth_oligarchic"
+	government="gov_executive_committee"
+	planet_name="Rhonz"
+	planet_class="pc_geothermal"
+	system_name="Rhonz Galif"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_spiritualist5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="diagonal_stripe.dds"
+		}
+		colors={
+			"black"
+			"gray_0"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Trakt Okk Kro'Err"
+		portrait="lith6"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_meritocracy"
+		"civic_efficient_bureaucracy"
+	}
+	origin="origin_default"
 }
 "Oswaldian Oswaldocracy of Oswald"
 ={
 	key="Oswaldian Oswaldocracy of Oswald"
-	ship_prefix="OSV"
+	ship_prefix="OO"
 	species={
 		class="HUM"
 		portrait="humanoid_hp_02"
 		name="Oswald"
 		plural="Oswalds"
 		adjective="Oswaldian"
+		species_bio="Oswald! Oswald. Oswald. Oswald? Oswald!"
 		name_list="OSWALD"
 		trait="trait_survivor"
-		trait="trait_venerable"
-		trait="trait_rapid_breeders"
-		trait="trait_nonadaptive"
-		trait="trait_unruly"
+		trait="trait_intelligent"
+		trait="trait_natural_physicists"
+		trait="trait_communal"
+		trait="trait_repugnant"
 	}
 	name="Oswaldian Oswaldocracy of Oswald"
 	adjective="Oswald"
-	authority="auth_democratic"
-	government="gov_moral_democracy"
+	authority="auth_imperial"
+	government="gov_star_empire"
 	planet_name="Oswald"
 	planet_class="pc_continental"
 	system_name="Oswald"
 	initializer=""
-	graphical_culture="css_fedbuild_04"
-	city_graphical_culture="css_fedbuild_01"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
 			category="stargate-6364"
@@ -1425,7 +1572,7 @@
 		}
 		colors={
 			"yellow"
-			"gray_0"
+			"black"
 			"null"
 			"null"
 		}
@@ -1435,89 +1582,84 @@
 		name="Oswald"
 		portrait="humanoid_hp_02_female"
 		texture=0
-		hair=12
+		hair=0
 		clothes=6
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_peaceful_traders_room"
+	room="personality_hegemonic_imperialists_room"
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	civics={
-		"civic_inwards_perfection"
-		"civic_shadow_council"
+		"civic_nationalistic_zeal"
+		"civic_distinguished_admiralty"
 	}
 	origin="origin_post_apocalyptic"
 }
-"Polvanite Refuge"
+"Ok'them'phi Carrion-Eaters"
 ={
-	key="Polvanite Refuge"
-	ship_prefix="Resh"
+	key="Ok'them'phi Carrion-Eaters"
+	ship_prefix=""
 	species={
-		class="LITHOID"
-		portrait="lith8"
-		name="Polvanite"
-		plural="Polvanites"
-		adjective="Polvanitan"
-		name_list="LITHOID2"
-		trait="trait_lithoid"
-		trait="trait_venerable"
-		trait="trait_solitary"
-		trait="trait_sedentary"
-		trait="trait_intelligent"
-		trait="trait_unruly"
+		class="AVI"
+		portrait="avi2"
+		name="Ok'them"
+		plural="Ok'them'e"
+		adjective="Ok'them'phi"
+		name_list="just-name-lists_avian3"
+		trait="trait_rapid_breeders"
+		trait="trait_quarrelsome"
+		trait="trait_communal"
 	}
-	name="Polvanite Refuge"
-	adjective="Refuge"
+	name="Ok'them'phi Carrion-Eaters"
+	adjective="Ok'them'phi"
 	authority="auth_democratic"
-	government="gov_theocratic_republic"
-	advisor_voice_type="l_spiritualist"
-	planet_name="Zur"
-	planet_class="pc_biolumen"
-	system_name="Zurv"
+	government="gov_assembly_of_clans"
+	planet_name="Sintomoroi Gaxpak"
+	planet_class="pc_arid"
+	system_name="Sintomoroi'Utlak"
 	initializer=""
-	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_egalitarian4.dds"
+			category="misc-6364"
+			file="zim-armada-custom1.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_spiral.dds"
+			file="v.dds"
 		}
 		colors={
-			"dark_green"
-			"hsv_80-84-80"
+			"hsv_0-100-50"
+			"beige"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Neq Onit"
-		portrait="lith8"
-		texture=1
+		name="Kura Jofamalim Potl"
+		portrait="avi2"
+		texture=0
 		hair=0
-		clothes=0
+		clothes=4
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="ego_nice_room"
-	spawn_enabled=yes
-	ethic="ethic_egalitarian"
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=always
 	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
+	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_mining_guilds"
-		"civic_diplomatic_corps"
+		"civic_warrior_culture"
+		"civic_environmentalist"
 	}
-	origin="origin_default"
+	origin="origin_mechanists"
 }
 "Priksa'Kree League"
 ={
@@ -1538,7 +1680,7 @@
 	name="Priksa'Kree League"
 	adjective="Priksa'Krean"
 	authority="auth_democratic"
-	government="gov_military_commissariat"
+	government="gov_rational_consensus"
 	planet_name="Vallgar"
 	planet_class="pc_primal"
 	system_name="Vidirion"
@@ -1575,13 +1717,78 @@
 	room="personality_evangelizing_zealots_room"
 	spawn_enabled=always
 	ethic="ethic_xenophile"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_materialist"
 	civics={
+		"civic_technocracy"
 		"civic_functional_architecture"
-		"civic_parliamentary_system"
 	}
 	origin="origin_gpm_fallen_empire_colony"
+}
+"Polvanite Refuge"
+={
+	key="Polvanite Refuge"
+	ship_prefix="Resh"
+	species={
+		class="LITHOID"
+		portrait="lith8"
+		name="Polvanite"
+		plural="Polvanites"
+		adjective="Polvanitan"
+		name_list="LITHOID2"
+		trait="trait_lithoid"
+		trait="trait_venerable"
+		trait="trait_solitary"
+		trait="trait_sedentary"
+		trait="trait_intelligent"
+		trait="trait_unruly"
+	}
+	name="Polvanite Refuge"
+	adjective="Refuge"
+	authority="auth_oligarchic"
+	government="gov_science_directorate"
+	advisor_voice_type="l_spiritualist"
+	planet_name="Zur"
+	planet_class="pc_biolumen"
+	system_name="Zurv"
+	initializer=""
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_egalitarian4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_spiral.dds"
+		}
+		colors={
+			"dark_green"
+			"hsv_80-84-80"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Neq Onit"
+		portrait="lith8"
+		texture=1
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ego_nice_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_environmentalist"
+	}
+	origin="origin_default"
 }
 "Q'r'llox Scourge"
 ={
@@ -1601,8 +1808,8 @@
 	}
 	name="Q'r'llox Scourge"
 	adjective="Q'r'llox"
-	authority="auth_oligarchic"
-	government="gov_bandit_commune"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
 	planet_name="Cirra"
 	planet_class="pc_outback"
 	system_name="Cir'Darus"
@@ -1642,10 +1849,71 @@
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	civics={
-		"civic_barbaric_despoilers"
 		"civic_nationalistic_zeal"
+		"civic_distinguished_admiralty"
 	}
 	origin="origin_mem_from_the_ashes"
+}
+"Qilspor Spread"
+={
+	key="Qilspor Spread"
+	ship_prefix=""
+	species={
+		class="FUN"
+		portrait="fun4"
+		name="Qilspor"
+		plural="Qilspor"
+		adjective="Qilsporan"
+		name_list="just-name-lists_fungoid1"
+		trait="trait_intelligent"
+	}
+	name="Qilspor Spread"
+	adjective="Qilsporan"
+	authority="auth_imperial"
+	government="gov_enlightened_monarchy"
+	planet_name="Buvhondonia"
+	planet_class="pc_tundra"
+	system_name="Gasci Xubb"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"blue"
+			"gray_10"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Face of Ulssion"
+		portrait="fun4"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_philosopher_king"
+		"civic_feudal_realm"
+	}
+	origin="origin_galactic_doorstep"
 }
 "Righteous Fist of Thon"
 ={
@@ -1663,8 +1931,8 @@
 	}
 	name="Righteous Fist of Thon"
 	adjective="Iz'Thon"
-	authority="auth_imperial"
-	government="gov_enlightened_monarchy"
+	authority="auth_oligarchic"
+	government="gov_war_council"
 	planet_name="Ikaan"
 	planet_class="pc_hadesert"
 	system_name="Ikor"
@@ -1703,10 +1971,72 @@
 	ethic="ethic_militarist"
 	ethic="ethic_fanatic_spiritualist"
 	civics={
-		"civic_philosopher_king"
-		"civic_aristocratic_elite"
+		"civic_warrior_culture"
+		"civic_corvee_system"
 	}
 	origin="origin_shoulders_of_giants"
+}
+"Rreggul Conspiracy"
+={
+	key="Rreggul Conspiracy"
+	ship_prefix="SV"
+	species={
+		class="MOL"
+		portrait="mol3"
+		name="Rreggul"
+		plural="Rreggul"
+		adjective="Rreggul"
+		name_list="MOL4"
+		trait="trait_docile"
+		trait="trait_sedentary"
+		trait="trait_communal"
+	}
+	name="Rreggul Conspiracy"
+	adjective="Rreggul"
+	authority="auth_dictatorial"
+	government="gov_technocratic_dictatorship"
+	planet_name="Mathini Prime"
+	planet_class="pc_steppe"
+	system_name="Mathonis"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_stripes_rotated.dds"
+		}
+		colors={
+			"dark_teal"
+			"light_green"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Voyl Unrove"
+		portrait="mol3"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=always
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_efficient_bureaucracy"
+	}
+	origin="origin_scion"
 }
 "Sacred Kingdom of Dust"
 ={
@@ -1729,7 +2059,7 @@
 	name="Sacred Kingdom of Dust"
 	adjective="Kingdom"
 	authority="auth_imperial"
-	government="gov_theocratic_monarchy"
+	government="gov_celestial_empire"
 	planet_name="Zemm Opuk"
 	planet_class="pc_antarctic"
 	system_name="Zaktoria"
@@ -1765,11 +2095,12 @@
 	ignore_portrait_duplication=no
 	room="personality_honorbound_warriors_room"
 	spawn_enabled=always
-	ethic="ethic_militarist"
-	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
 	civics={
-		"civic_functional_architecture"
-		"civic_cutthroat_politics"
+		"civic_inwards_perfection"
+		"civic_philosopher_king"
 	}
 	origin="origin_gpm_precursor_world"
 }
@@ -1793,8 +2124,8 @@
 	}
 	name="Shallur Cleansers"
 	adjective="Shallur"
-	authority="auth_democratic"
-	government="gov_purity_assembly"
+	authority="auth_imperial"
+	government="gov_blood_court"
 	planet_name="Cormath"
 	planet_class="pc_aquatic"
 	system_name="Cormassa"
@@ -1838,99 +2169,31 @@
 	}
 	origin="origin_lost_colony"
 }
-"Spirafor Incorporated"
-={
-	key="Spirafor Incorporated"
-	ship_prefix=""
-	species={
-		class="FUN"
-		portrait="fun1"
-		name="Pagovan"
-		plural="Pagovani"
-		adjective="Pagovan"
-		species_bio="Relatively beneficial, extremely cutthroat. Will fund both sides of a conflict but considers hiding that fact unethical."
-		name_list="FUN3"
-		trait="trait_talented"
-		trait="trait_traditional"
-		trait="trait_nomadic"
-		trait="trait_communal"
-		trait="trait_unruly"
-	}
-	name="Spirafor Incorporated"
-	adjective="Spirafor"
-	authority="auth_corporate"
-	government="gov_trade_league"
-	planet_name="Ova Syr"
-	planet_class="pc_methane"
-	system_name="Vogen Folbran"
-	initializer="custom_starting_init_03"
-	graphical_culture="fungoid_01"
-	city_graphical_culture="fungoid_01"
-	empire_flag={
-		icon={
-			category="just-more-flags"
-			file="flag_machine1.dds"
-		}
-		background={
-			category="backgrounds"
-			file="fabric_ring.dds"
-		}
-		colors={
-			"dark_teal"
-			"indigo"
-			"null"
-			"null"
-		}
-	}
-	ruler={
-		gender=female
-		name="Davafin uvi-Livve"
-		portrait="fun1"
-		texture=3
-		hair=0
-		clothes=0
-		leader_class="ruler"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="personality_migrating_flock_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_pacifist"
-	ethic="ethic_materialist"
-	civics={
-		"civic_free_traders"
-		"civic_trading_posts"
-	}
-	origin="origin_default"
-}
 "Starrin Refuge"
 ={
 	key="Starrin Refuge"
-	ship_prefix="StRf"
+	ship_prefix="Hv"
 	species={
 		class="MOL"
 		portrait="mol17"
 		name="Starr"
-		plural="Starrin"
+		plural="Starri"
 		adjective="Starrin"
-		species_bio="Egalitarian to the core, the Starrin welcome all races and creeds. They will violently defend their own independence when necessary."
-		name_list="just-name-lists_molluscoid1"
-		trait="trait_natural_sociologists"
-		trait="trait_thrifty"
+		name_list="MOL1"
+		trait="trait_communal"
+		trait="trait_weak"
+		trait="trait_resilient"
 		trait="trait_conservational"
-		trait="trait_fleeting"
-		trait="trait_quarrelsome"
 	}
 	name="Starrin Refuge"
 	adjective="Starrin"
-	authority="auth_democratic"
-	government="gov_theocratic_republic"
-	planet_name="Biris"
+	authority="auth_imperial"
+	government="gov_illuminated_autocracy"
+	planet_name="Cyggia"
 	planet_class="pc_biolumen"
-	system_name="Bilnagga"
+	system_name="Cygg"
 	initializer=""
-	graphical_culture="wsg_01"
+	graphical_culture="molluscoid_01"
 	city_graphical_culture="molluscoid_01"
 	empire_flag={
 		icon={
@@ -1942,7 +2205,7 @@
 			file="fabric_stripe_negative.dds"
 		}
 		colors={
-			"hsv_80-100-50"
+			"hsv_72-84-80"
 			"hsv_32-100-80"
 			"null"
 			"null"
@@ -1950,54 +2213,113 @@
 	}
 	ruler={
 		gender=female
-		name="Shleyshe Chashib"
+		name="Schlargim"
 		portrait="mol17"
-		texture=3
+		texture=0
 		hair=0
 		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_xenophobic_isolationists_room"
+	room="personality_evangelizing_zealots_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
-	ethic="ethic_spiritualist"
+	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_parliamentary_system"
-		"civic_efficient_bureaucracy"
+		"civic_technocracy"
+		"civic_agrarian_idyll"
 	}
 	origin="origin_mem_fainthearted"
+}
+"Troxxican Plagueborn"
+={
+	key="Troxxican Plagueborn"
+	ship_prefix="Plagueship"
+	species={
+		class="FUN"
+		portrait="fun2"
+		name="Troxxican"
+		plural="Troxxicans"
+		adjective="Troxxican"
+		name_list="FUN3"
+		trait="trait_extremely_adaptive"
+		trait="trait_unruly"
+	}
+	name="Troxxican Plagueborn"
+	adjective="Troxxican"
+	authority="auth_oligarchic"
+	government="gov_purification_committee"
+	planet_name="Ova Syr"
+	planet_class="pc_hajungle"
+	system_name="Vogen Folbran"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="legion"
+			file="flag_mp_beta_03.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"hsv_56-100-50"
+			"gray_0"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Uravv uvi-Evvfin"
+		portrait="fun2"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_shadow_council"
+	}
+	origin="origin_doomsday"
 }
 "Timinian Arm"
 ={
 	key="Timinian Arm"
-	ship_prefix="Fist"
+	ship_prefix="TAV"
 	species={
 		class="REP"
 		portrait="rep16"
 		name="Timini"
 		plural="Timini"
 		adjective="Timinian"
-		species_bio="Warrior race. In spite of diminutive size, have a vast intellect and aptitude for naval combat."
-		name_list="REP4"
+		name_list="REP2"
 		trait="trait_gpm_mega_adaptive"
-		trait="trait_resilient"
-		trait="trait_very_strong"
-		trait="trait_fleeting"
-		trait="trait_solitary"
+		trait="trait_natural_engineers"
+		trait="trait_quick_learners"
+		trait="trait_talented"
+		trait="trait_quarrelsome"
 	}
 	name="Timinian Arm"
 	adjective="Timinian"
-	authority="auth_oligarchic"
-	government="gov_bandit_commune"
-	planet_name="Rax'Kana"
-	planet_class="pc_ash"
-	system_name="Rax"
+	authority="auth_imperial"
+	government="gov_martial_empire"
+	planet_name="Resh"
+	planet_class="pc_prairie"
+	system_name="Reshlur"
 	initializer=""
 	graphical_culture="reptilian_01"
-	city_graphical_culture="css_fedbuild_01"
+	city_graphical_culture="reptilian_01"
 	empire_flag={
 		icon={
 			category="geopolitical-6364"
@@ -2009,29 +2331,29 @@
 		}
 		colors={
 			"gray_100"
-			"black"
+			"gray_0"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Vipsi G'Rrib-Gnash"
+		name="Xirax"
 		portrait="rep16_f"
-		texture=2
+		texture=3
 		hair=0
 		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_peaceful_traders_room"
+	room="machine_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
 	ethic="ethic_fanatic_militarist"
 	civics={
-		"civic_barbaric_despoilers"
 		"civic_warrior_culture"
+		"civic_distinguished_admiralty"
 	}
 	origin="origin_gpm_death_world"
 }
@@ -2054,8 +2376,8 @@
 	}
 	name="Tupox Hierarchy"
 	adjective="Tupoxi"
-	authority="auth_oligarchic"
-	government="gov_citizen_stratocracy"
+	authority="auth_dictatorial"
+	government="gov_constitutional_dictatorship"
 	planet_name="Fevaria"
 	planet_class="pc_continental"
 	system_name="Fevnor"
@@ -2091,12 +2413,11 @@
 	ignore_portrait_duplication=no
 	room="personality_decadent_hierarchy_room"
 	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophile"
 	civics={
-		"civic_aristocratic_elite"
-		"civic_citizen_service"
+		"civic_corvee_system"
+		"civic_cutthroat_politics"
 	}
 	origin="origin_remnants"
 }
@@ -2117,8 +2438,8 @@
 	}
 	name="Uldnvar Imperium"
 	adjective="Imperium"
-	authority="auth_imperial"
-	government="gov_star_empire"
+	authority="auth_oligarchic"
+	government="gov_plutocratic_oligarchy"
 	planet_name="Tezek"
 	planet_class="pc_snow"
 	system_name="Tir Batna"
@@ -2154,14 +2475,13 @@
 	ignore_portrait_duplication=no
 	room="personality_slaving_despots_room"
 	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_xenophobe"
 	civics={
-		"civic_nationalistic_zeal"
-		"civic_environmentalist"
+		"civic_merchant_guilds"
+		"civic_meritocracy"
 	}
-	origin="origin_hegemon"
+	origin="origin_default"
 }
 "Verdant Reach"
 ={
@@ -2196,8 +2516,8 @@
 	}
 	name="Verdant Reach"
 	adjective="Raxycan"
-	authority="auth_imperial"
-	government="gov_irenic_monarchy"
+	authority="auth_dictatorial"
+	government="gov_totalitarian_regime"
 	planet_name="Queptilium"
 	planet_class="pc_tropical"
 	system_name="Quepta"
@@ -2235,13 +2555,75 @@
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
 	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
 	civics={
-		"civic_inwards_perfection"
 		"civic_corvee_system"
+		"civic_police_state"
 	}
 	origin="origin_syncretic_evolution"
+}
+"Wa'hragh Assembly"
+={
+	key="Wa'hragh Assembly"
+	ship_prefix="AsV"
+	species={
+		class="MAM"
+		portrait="mam9"
+		name="Wa'hragh"
+		plural="Wa'hraghha"
+		adjective="Wa'hraghan"
+		name_list="MAM4"
+		trait="trait_gpm_forgotten_species"
+		trait="trait_ingenious"
+	}
+	name="Wa'hragh Assembly"
+	adjective="Wa'hraghan"
+	authority="auth_democratic"
+	government="gov_purity_assembly"
+	planet_name="Arakim"
+	planet_class="pc_savannah"
+	system_name="Aramus"
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_mirandan_interstellar_directorate.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_spiral.dds"
+		}
+		colors={
+			"gray_0"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Mubi, daughter of Abil"
+		portrait="mam9"
+		texture=2
+		hair=0
+		clothes=5
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_migrating_flock_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_nationalistic_zeal"
+	}
+	origin="origin_gpm_precursor_world"
 }
 "Whelkling Society"
 ={
@@ -2259,8 +2641,8 @@
 	}
 	name="Whelkling Society"
 	adjective="Society"
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
+	authority="auth_democratic"
+	government="gov_representative_democracy"
 	planet_name="Nuur"
 	planet_class="pc_salt"
 	system_name="Diamok"
@@ -2296,47 +2678,179 @@
 	ignore_portrait_duplication=no
 	room="personality_spiritual_seekers_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_militarist"
-	ethic="ethic_materialist"
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_xenophile"
 	civics={
-		"civic_warrior_culture"
-		"civic_mining_guilds"
+		"civic_free_haven"
+		"civic_environmentalist"
 	}
 	origin="origin_doomsday"
+}
+"Xorch Colonies"
+={
+	key="Xorch Colonies"
+	ship_prefix="XCS"
+	species={
+		class="ART"
+		portrait="art12"
+		name="Xorch"
+		plural="Xorch"
+		adjective="Xorch"
+		name_list="just-name-lists_arthropoid3"
+		trait="trait_quick_learners"
+		trait="trait_strong"
+		trait="trait_decadent"
+		trait="trait_enduring"
+	}
+	name="Xorch Colonies"
+	adjective="Xorch"
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	planet_name="Hantakka"
+	planet_class="pc_alpine"
+	system_name="Takaros"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_18.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_x120_inverted.dds"
+		}
+		colors={
+			"beige"
+			"gray_0"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Plecacstix"
+		portrait="art12"
+		texture=0
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_beacon_of_liberty"
+		"civic_shadow_council"
+	}
+	origin="origin_default"
+}
+"Yseni Empire"
+={
+	key="Yseni Empire"
+	ship_prefix="YES"
+	species={
+		class="PLANT"
+		portrait="pla9"
+		name="Grinn"
+		plural="Grinns"
+		adjective="Grinn"
+		name_list="PLANT3"
+		trait="trait_extremely_adaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_repugnant"
+		trait="trait_unruly"
+	}
+	name="Yseni Empire"
+	adjective="Grinn"
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	planet_name="Gronium"
+	planet_class="pc_oasis"
+	system_name="Yseni"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_materialist4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_stripe_negative_rotated.dds"
+		}
+		colors={
+			"gray_0"
+			"dark_purple"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Ash Lite"
+		portrait="pla9"
+		texture=0
+		hair=0
+		clothes=4
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_evangelizing_zealots_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_meritocracy"
+		"civic_mining_guilds"
+	}
+	origin="origin_default"
 }
 "Zeni Zidi Zici"
 ={
 	key="Zeni Zidi Zici"
-	ship_prefix="ZZZ"
+	ship_prefix="ISS"
 	species={
 		class="HUM"
 		portrait="humanoid_04"
 		name="Zeni"
 		plural="Zeni"
-		adjective="Zenian"
-		name_list="HUM3"
-		trait="trait_intelligent"
+		adjective="Zeni"
+		name_list="HUM1"
+		trait="trait_agrarian"
+		trait="trait_industrious"
+		trait="trait_nonadaptive"
+		trait="trait_enduring"
+		trait="trait_wasteful"
 	}
 	secondary_species={
 		class="HUM"
 		portrait="humanoid_03"
 		name="Zidi"
 		plural="Zidi"
-		adjective="Zidian"
-		name_list="HUM3"
+		adjective="Zidi"
+		name_list="HUM2"
 		trait="trait_syncretic_proles"
+		trait="trait_thrifty"
 		trait="trait_ingenious"
-		trait="trait_deviants"
+		trait="trait_nonadaptive"
+		trait="trait_fleeting"
 	}
 	name="Zeni Zidi Zici"
-	adjective="Zician"
-	authority="auth_corporate"
-	government="gov_trade_league"
-	planet_name="Alaria"
+	adjective="Zici"
+	authority="auth_imperial"
+	government="gov_feudal_empire"
+	planet_name="Triech"
 	planet_class="pc_ammonia"
-	system_name="Alar"
+	system_name="Rechio"
 	initializer=""
-	graphical_culture="wsg_01"
+	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag={
 		icon={
@@ -2345,33 +2859,34 @@
 		}
 		background={
 			category="backgrounds"
-			file="fabric_stripe_negative.dds"
+			file="fabric_stripe.dds"
 		}
 		colors={
-			"gray_0"
 			"hsv_32-100-50"
+			"gray_0"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Pela na-Feljen"
-		portrait="humanoid_04_female_14"
-		texture=0
+		name="Rhethana"
+		portrait="humanoid_04_female_01"
+		texture=2
 		hair=0
-		clothes=119
+		clothes=5
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_federation_builders_room"
 	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
-	ethic="ethic_fanatic_materialist"
 	civics={
-		"civic_brand_loyalty"
-		"civic_trading_posts"
+		"civic_feudal_realm"
+		"civic_diplomatic_corps"
 	}
 	origin="origin_syncretic_evolution"
 }

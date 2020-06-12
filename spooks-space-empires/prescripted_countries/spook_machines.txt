@@ -23,7 +23,7 @@
 	planet_class="pc_tundra"
 	system_name="Techar-Ubas"
 	initializer=""
-	graphical_culture="wsg_03"
+	graphical_culture="machine_01"
 	city_graphical_culture="machine_01"
 	empire_flag={
 		icon={
@@ -62,9 +62,9 @@
 	}
 	origin="origin_machine"
 }
-"Self-Improvement Protocol"
+"Protocol: Self-Improvement"
 ={
-	key="Self-Improvement Protocol"
+	key="Protocol: Self-Improvement"
 	ship_prefix=""
 	species={
 		class="MACHINE"
@@ -80,7 +80,7 @@
 		trait="trait_robot_bulky"
 		trait="trait_robot_high_maintenance"
 	}
-	name="Self-Improvement Protocol"
+	name="Protocol: Self-Improvement"
 	adjective="Cortex"
 	authority="auth_machine_intelligence"
 	government="gov_machine_empire"
@@ -126,79 +126,69 @@
 	}
 	origin="origin_shattered_ring"
 }
-"The Zoo"
+"> execute 'mining.exe'"
 ={
-	key="The Zoo"
-	ship_prefix="ZK"
+	key="> execute 'mining.exe'"
+	ship_prefix="Mining"
 	species={
 		class="MACHINE"
-		portrait="sd_rep_robot"
-		name="Zookeeper"
-		plural="Zookeepers"
-		adjective="Zookeeper"
-		name_list="just-name-lists_machine2"
+		portrait="sd_avi_robot"
+		name="Drone"
+		plural="Drones"
+		adjective="Drone"
+		name_list="just-name-lists_machine1"
 		trait="trait_machine_unit"
-		trait="trait_robot_logic_engines"
+		trait="trait_robot_power_drills"
+		trait="trait_robot_superconductive"
+		trait="trait_robot_repurposed_hardware"
 		trait="trait_robot_bulky"
+		trait="trait_robot_high_maintenance"
 	}
-	secondary_species={
-		class="ART"
-		portrait="art19"
-		name="Kark"
-		plural="Karks"
-		adjective="Karkan"
-		name_list="ART1"
-		trait="trait_decadent"
-		trait="trait_wasteful"
-		trait="trait_intelligent"
-		trait="trait_natural_physicists"
-		trait="trait_quick_learners"
-	}
-	name="The Zoo"
-	adjective="Zoo"
+	name="> execute 'mining.exe'"
+	adjective="Drone"
 	authority="auth_machine_intelligence"
-	government="gov_machine_servitor"
-	planet_name="Primus One"
-	planet_class="pc_desertislands"
-	system_name="Base Cluster"
+	government="gov_machine_industrial"
+	planet_name="Techus"
+	planet_class="pc_continental"
+	system_name="Techar-Ubas"
 	initializer=""
 	graphical_culture="machine_01"
 	city_graphical_culture="machine_01"
 	empire_flag={
 		icon={
-			category="just-more-flags"
-			file="flag_nature1.dds"
+			category="pointy"
+			file="flag_pointy_3.dds"
 		}
 		background={
 			category="backgrounds"
-			file="fabric_half_black_circle.dds"
+			file="v.dds"
 		}
 		colors={
-			"hsv_88-100-50"
-			"yellow"
+			"brown"
+			"beige"
 			"null"
 			"null"
 		}
 	}
 	ruler={
 		gender=female
-		name="Vinculus"
-		portrait="sd_rep_robot"
-		texture=2
+		name="Salience"
+		portrait="sd_avi_robot"
+		texture=1
 		hair=0
 		clothes=0
 		leader_class="ruler"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_fanatic_befrienders_room"
+	room="personality_hive_mind_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics={
-		"civic_machine_servitor"
-		"civic_machine_ota_updates"
+		"civic_machine_rockbreakers"
+		"civic_machine_replication"
 	}
-	origin="origin_default"
+	origin="origin_remnants"
 }
 "The Machine That Grinds"
 ={
@@ -226,7 +216,7 @@
 	planet_class="pc_primal"
 	system_name="EN-14421"
 	initializer=""
-	graphical_culture="arthropoid_01"
+	graphical_culture="machine_01"
 	city_graphical_culture="machine_01"
 	empire_flag={
 		icon={
@@ -263,6 +253,80 @@
 		"civic_machine_factory_overclock"
 	}
 	origin="origin_machine"
+}
+"The Zoo"
+={
+	key="The Zoo"
+	ship_prefix="ZK"
+	species={
+		class="MACHINE"
+		portrait="sd_rep_robot"
+		name="Zookeeper"
+		plural="Zookeepers"
+		adjective="Zookeeper"
+		name_list="just-name-lists_machine2"
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_bulky"
+	}
+	secondary_species={
+		class="ART"
+		portrait="art19"
+		name="Kark"
+		plural="Karks"
+		adjective="Karkan"
+		name_list="ART1"
+		trait="trait_decadent"
+		trait="trait_wasteful"
+		trait="trait_intelligent"
+		trait="trait_natural_physicists"
+		trait="trait_quick_learners"
+	}
+	name="The Zoo"
+	adjective="Zoo"
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	planet_name="Primus One"
+	planet_class="pc_desertislands"
+	system_name="Base Cluster"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="machine_01"
+	empire_flag={
+		icon={
+			category="just-more-flags"
+			file="flag_nature1.dds"
+		}
+		background={
+			category="backgrounds"
+			file="fabric_half_black_circle.dds"
+		}
+		colors={
+			"hsv_88-100-50"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Vinculus"
+		portrait="sd_rep_robot"
+		texture=2
+		hair=0
+		clothes=0
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_befrienders_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics={
+		"civic_machine_servitor"
+		"civic_machine_ota_updates"
+	}
+	origin="origin_default"
 }
 "Unity Enforcement Platform"
 ={
