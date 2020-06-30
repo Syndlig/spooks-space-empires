@@ -4,5 +4,5 @@ tags={
 }
 name="Spook's Space Empires"
 supported_version="2.7.2"
-path="E:\\Stellaris Modding\\SpooksEmpires\\spooks-space-empires"
+path="E:/Modding/Stellaris/SpooksEmpires/spooks-space-empires"
 remote_file_id="2104672538"
